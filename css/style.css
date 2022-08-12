@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-1:#ff3535;
+    --color-2:#ffcaca;
+    --color-header:#50505083;
+    --color-header-border:#505050;
+    --color-fondo:#000000;
+    --color-texto-1:#ffff;
+    --color-texto-2:#ffd000;
+    --color-texto-3:#ff3535;
+
+
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main{
+    width: 100%;
+}
+
+/*Section-1*/
+
+.section_1{
+    background: url("../sources/banner.png") no-repeat ;
+    height: calc(100vh);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*header*/
+
+.header{
+    background: var(--color-header);
+    border-bottom: solid 2px var(--color-header-border);
+    width: 100%;
+    height: 75px;
+    display: flex;
+
+}
+
+.header_logo{
+    width: 30%;
+}
+
+.logo{
+    object-fit: cover;
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color-texto-1);
+    margin: 1% 3%;
+    font-size: 1.25em;
+}
+
+.link:hover{
+    color:#ff3535;
+}
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.banner_title-1{
+    font-size: 3em;
+    color: var(--color-texto-2);
+    line-height: 5px;
+
+}
+
+.banner_title-2{
+    font-size: 5em;
+    color: var(--color-texto-1);
+}
+
+.text{
+    font-size: 1.5em;
+    color: var(--color-texto-1);
+
+}
+
+.banner_link{
+    width: 25%;
+    background: var(--color-1);
+    color: var(--color-texto-1);
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 20px;
+
+}
+
+/*Section-2*/
+.container{
+    margin: auto;
+    
+
+}
+
+
+.section_2{
+    width: 75%;
+    margin: auto;
+    padding: 75px 0;
+}
+
+.info-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: var(--color-texto-3);
+    font-weight: bold;
+    margin-bottom: 25px
+    
+}
+
+.info-parraph{
+    display: flex;
+
+}
+
+.info-text-parraph{
+    width: 60%;
+    padding: 0 10% 0 0;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    color: var(--color-header-border);
+    text-align: justify;
+
+
+}
+
+
+.info-text{
+
+    margin: 10px 0;
+
+}
+
+.info-images{
+
+
+}
+
+/*redes*/
+
+.info-images{
+    margin: 20px 0;
+
+}
+
+.info-redes{
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    color: var(--color-texto-3);
+    font-weight: bold;
+
+}
+
+.info-icons{
+    margin: 20px 0;
+    
+
+}
+
+.info-img{
+    width: 40%;
+
+}
+
+.img-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.info-link{
+    margin: 0 5px;
+}
